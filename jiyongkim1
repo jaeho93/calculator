@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+#define N 60
+
+int main(void)
+{
+  char cal[N];
+  int i,str_n; //str_n은 받은 문자열 안에 있는 문자의 수
+  scanf("%s", cal);
+  str_n=strlen(cal);
+  for(int j=str_n; j>=0; j--)
+    printf("%c", cal[j]);
+    
+  printf("\n");
+  return 0;
+}
